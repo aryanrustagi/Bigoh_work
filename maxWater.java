@@ -18,11 +18,6 @@ public class maxWater {
         }
         return ans;
     }
-<<<<<<< HEAD
-=======
-    
->>>>>>> 86aebbb3102b766dd6c628f04755c037bf3945c1
-
     public static void main(String[] args) {
         int[] arr = {8, 5, 4, 7, 3, 9, 5, 4, 1, 2};
         System.out.println(maxwater(arr));
