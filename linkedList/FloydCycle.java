@@ -58,8 +58,4 @@ class FloydCycle {
 
         printList(head, cycleNode);
     }
-<<<<<<< HEAD
-} // hello world
-=======
 }
->>>>>>> 86aebbb3102b766dd6c628f04755c037bf3945c1
