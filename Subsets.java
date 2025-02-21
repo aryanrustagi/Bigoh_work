@@ -1,5 +1,3 @@
-package backTracking;
-
 import java.util.*;
 
 public class Subsets {
