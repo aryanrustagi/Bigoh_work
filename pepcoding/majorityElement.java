@@ -3,26 +3,26 @@ package pepcoding;
 public class majorityElement {
     public static int majority(int[] arr) {
         int count = 1;
-        int candidate = arr[0];
+        int num = arr[0];
         for (int i = 1; i < arr.length; i++) {
-            if (arr[i] == candidate) {
+            if (arr[i] == num) {
                 count++;
             } else {
                 count--;
                 if (count == 0) {
-                    candidate = arr[i];
+                    num = arr[i];
                     count = 1;
                 }
             }
         }
         count = 0;
-        for (int num : arr) {
-            if (num == candidate) {
+        for (int i : arr) {
+            if (i == num) {
                 count++;
             }
         }
         if (count > arr.length / 2) {
-            return candidate;
+            return num;
         } else {
             return -1;
         }
