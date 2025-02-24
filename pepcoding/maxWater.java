@@ -1,3 +1,4 @@
+package pepcoding;
 public class maxWater {
     public static int maxwater(int[] arr) {
         if (arr == null || arr.length < 2) {
